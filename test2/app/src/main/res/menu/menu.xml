@@ -1,0 +1,33 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu1"
+        android:title="メニュー１"
+        android:icon="@android:drawable/ic_menu_agenda"
+        />
+    <item
+        android:id="@+id/menu2"
+        android:title="メニュー２"
+        android:icon="@android:drawable/ic_menu_call"
+        />
+    <item
+        android:id="@+id/menu3"
+        android:title="メニュー３"
+        android:icon="@android:drawable/ic_menu_compass"
+        />
+    <item
+        android:id="@+id/menu4"
+        android:title="メニュー4"
+        android:icon="@android:drawable/ic_menu_set_as"
+        />
+    <item
+        android:id="@+id/menu5"
+        android:title="メニュー5"
+        android:icon="@android:drawable/ic_menu_camera"
+        />
+    <item
+        android:id="@+id/menu6"
+        android:title="メニュー6"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        />
+</menu>
