@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jp.klab.sonic04.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/button01"
+        android:layout_marginTop="125dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="      "
+        android:id="@+id/textView02"
+        android:layout_below="@+id/button01"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+    android:id="@+id/insert"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="登録"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+    android:id="@+id/dataBase"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="データベースの中身を閲覧"
+        android:layout_below="@+id/textView02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp" />
+
+    <Button
+    android:id="@+id/deleteAll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="すべて削除"
+        android:layout_below="@+id/dataBase"
+        android:layout_alignLeft="@+id/button01"
+        android:layout_alignStart="@+id/button01"
+        android:layout_marginTop="30dp" />
+
+
+
+
+</RelativeLayout>
