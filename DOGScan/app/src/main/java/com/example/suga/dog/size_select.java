@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+//クラス名の頭文字は大文字にしよう
 public class size_select extends AppCompatActivity{
 
     @Override

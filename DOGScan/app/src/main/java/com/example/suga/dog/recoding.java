@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+
+//クラス名の頭文字は大文字にしよう
 public class recoding  extends AppCompatActivity  {
 
     @Override
@@ -21,13 +23,8 @@ public class recoding  extends AppCompatActivity  {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
                 Intent intent = new Intent(getApplication(), result.class);
                 startActivity(intent);
-
-
-
             }
         });
         button3.setOnClickListener(new View.OnClickListener() {
